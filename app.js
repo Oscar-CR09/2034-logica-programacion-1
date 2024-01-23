@@ -13,7 +13,7 @@ while (nuemeroUsuario != numeroSecreto){
 
     let nuemeroUsuario = parseInt(prompt(`Me indicas un numero 1 y ${numeroMaximoPosible} por favor: `));
 
-    console.log(nuemeroUsuario);
+    //console.log(nuemeroUsuario);
     /*
     Este codigrealiza 
     comparacion 
