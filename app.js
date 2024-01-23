@@ -1,4 +1,8 @@
-let numeroSecreto =5 ;
+
+let numeroMaximoPosible=10;
+let numeroSecreto =Math.floor(Math.random()*numeroMaximoPosible)+1; 
+//console.log(numeroSecreto);
+//let numeroSecretoSecret = parseInt()
 let nuemeroUsuario =0;
 let intentos = 1;
 //let palabraVeces='vez';
@@ -7,7 +11,7 @@ let maximosIntentos = 3;
 while (nuemeroUsuario != numeroSecreto){
 
 
-    let nuemeroUsuario = prompt("Me indicas un nuemro por favor: ");
+    let nuemeroUsuario = parseInt(prompt(`Me indicas un numero 1 y ${numeroMaximoPosible} por favor: `));
 
     console.log(nuemeroUsuario);
     /*
@@ -17,10 +21,8 @@ while (nuemeroUsuario != numeroSecreto){
     */
 
     if (nuemeroUsuario == numeroSecreto){
-        //acertamos, fue verdadera la condicion si se cumplio
-        
         alert(`Acertaste, el numero es: ${nummeroUsuario}. Lo hiciste en ${intentos} ${intentos==1?'vez':'veces'}`);
-    
+      //acertamos, fue verdadera la condicion si se cumplio
 
     }else{
             if(nuemeroUsuario > numeroSecreto){
